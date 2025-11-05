@@ -92,7 +92,7 @@ public class PokemonServlet extends HttpServlet {
         context.setAttribute("listaPokemones", lista);
 
         // 5. Redirigir al servlet que muestra la tabla
-        response.sendRedirect(request.getContextPath() + "/listPokemon");
+        response.sendRedirect(request.getContextPath() + "/PokemonServlet");
     }
 
 }
